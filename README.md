@@ -1,64 +1,104 @@
-# NovaCart MERN Store
+# 🛒 Simple E-commerce Store
 
-Basic e-commerce project using React, Express, and MongoDB with:
+A basic full-stack E-commerce web application that allows users to browse products, add items to cart, and place orders.
 
-- Product listing page
-- Product details page
-- Shopping cart
-- User registration and login
-- Order processing
-- Search and category filters
-- Customer profile and order history
+---
 
-## Project structure
+## 🎯 Features
 
-- `client/` React frontend built with Vite
-- `server/` Express API with MongoDB models for products, users, and orders
+* 🛍 Product Listing Page
+* 📄 Product Details Page
+* 🛒 Shopping Cart Functionality
+* 🔐 User Registration & Login
+* 📦 Order Processing System
+* 🗄 Database for Products, Users & Orders
 
-## Run locally
+---
 
-### 1. Install dependencies
+## 🛠 Tech Stack
+
+### Frontend:
+
+* HTML
+* CSS
+* JavaScript
+
+### Backend:
+
+* Node.js
+* Express.js
+
+### Database:
+
+* MongoDB
+
+---
+
+## 📂 Project Structure
+
+```
+ecommerce/
+├── client/   # Frontend
+├── server/   # Backend
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/simple-ecommerce-store.git
+```
+
+---
+
+### 2. Setup Backend
 
 ```bash
 cd server
 npm install
-cd ../client
-npm install
+npm start
 ```
 
-### 2. Configure environment
+---
 
-Copy `server/.env.example` to `server/.env` and update values if needed:
+### 3. Setup Frontend
 
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/novacart
-JWT_SECRET=change-this-secret
-CLIENT_URL=http://localhost:5173
-```
+Open the frontend folder in browser or run using live server.
 
-### 3. Seed products
+---
 
-```bash
-cd server
-npm run seed
-```
+## 🌐 Features Overview
 
-### 4. Start both apps
+* Users can browse products
+* View product details
+* Add/remove items from cart
+* Register and login
+* Place orders
 
-In one terminal:
+---
 
-```bash
-cd server
-npm run dev
-```
+## 📽 Demo
 
-In another terminal:
+(Add your demo video link here)
 
-```bash
-cd client
-npm run dev
-```
+---
 
-Frontend: `http://localhost:5173`
-Backend: `http://localhost:5000`
+## 📢 Internship Update
+
+This project is part of my learning journey.
+Sharing my internship progress with @CodeAlpha.
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork and improve this project.
+
+---
+
+## ⭐ Support
+
+If you like this project, don’t forget to star the repository!
